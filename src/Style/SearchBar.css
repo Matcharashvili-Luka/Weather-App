@@ -1,0 +1,25 @@
+.search{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchInputs{
+    display: flex;
+    align-items: center;
+    outline: 2px solid red;
+    padding-right: .7rem;
+    border-radius: 1rem;
+}
+
+.searchInputs input{
+    padding: .7rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+}
+
+.searchInputs i{
+    font-size: 1.5rem;
+}
+
