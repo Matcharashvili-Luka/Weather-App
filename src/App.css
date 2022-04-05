@@ -5,4 +5,13 @@
     padding: 0rem;
     font-family: 'Fredoka One', sans-serif;
     box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.app{
+    height: 100vh;
+    color: ;
 }
