@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Style/SearchBar.css'
 
-function SearchBar({ location, setLocation, searchLocation }) {
+function SearchBar({ location, setLocation, searchLocation, searchLoacationForBTN }) {
 
   return (
     <div className='search'>
@@ -14,7 +14,10 @@ function SearchBar({ location, setLocation, searchLocation }) {
                 placeholder='Enter Location'
                 type="text" 
               />
-              <i className="fa-solid fa-magnifying-glass"></i>
+              <i 
+                className="fa-solid fa-magnifying-glass"
+                onClick={searchLoacationForBTN}
+              ></i>
             </div>
         </div>
     </div>

@@ -1,15 +1,6 @@
 import './App.css';
 import Main from './Weather App/Main';
 import { useState } from 'react';
-// import fineSunny from './Assets/fineSunny.jpg';
-// import normalSunny from './Assets/normalSunny.jpg';
-// import hotSunny from './Assets/hotSunny.jpg';
-// import rainy from './Assets/rainy.jpg';
-// import freeze from './Assets/freeze.jpg';
-// import storm from './Assets/storm.jpg';
-// import cloudy from './Assets/cloudy.jpg';
-// import snow from './Assets/snow.jpg';
-// import mainBG from './Assets/mainBG.jpg'
 
 function App() {
   const [data, setData] = useState({});
@@ -34,5 +25,3 @@ function App() {
 
 export default App;
 
-
-// backgroundImage : (typeof data.main != "undefined") ? (desc === 'Clouds') ? `url(${cloudy}` : ((desc === 'Mist') ? `url(${cloudy}` : ((desc === 'Smoke') ? `url(${cloudy}` : ((desc === 'Haze') ? `url(${cloudy}` : ((desc === 'Dust') ? `url(${cloudy}` : ((desc === 'Fog') ? `url(${cloudy}` : ((desc === 'Sand') ? `url(${cloudy}` : ((desc === 'Snow') ? `url(${snow}` : ((desc === 'Rain') ? `url(${rainy}` : ((desc === 'Drizzle') ? `url(${rainy}` : ((desc === 'Tunderstorm') ? `url(${storm}` : ((desc === 'Tornado') ? `url(${storm}` : (('Clear' && temp > 30) ? `url(${hotSunny}` : (('Clear' && temp > 15) ? `url(${normalSunny}` : (('Clear' && temp > 0) ?  `url(${fineSunny}` :  `url(${freeze}`)))))))))))))): `url(${mainBG}`
