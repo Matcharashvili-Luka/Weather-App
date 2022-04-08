@@ -5,13 +5,40 @@
     padding: 0rem;
     font-family: 'Fredoka One', sans-serif;
     box-sizing: border-box;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.app{
+.weather{
     height: 100vh;
-    color: ;
+}
+
+.app{
+    background-image: url('./Assets/mainBG.jpg');
+}
+.clouds{
+    background-image: url('./Assets/cloudy.jpg')
+}
+.snow{
+    background-image: url('./Assets/snow.jpg')
+}
+.rain{
+    background-image: url('./Assets/rainy.jpg')
+}
+.storm{
+    background-image: url('./Assets/storm.jpg')
+}
+.hot{
+    background-image: url('./Assets/hotSunny.jpg')
+}
+.normal{
+    background-image: url('./Assets/normalSunny.jpg');
+}
+.fine{
+    background-image: url('./Assets/fineSunny.jpg');
+}
+.cold{
+    background-image: url('./Assets/freeze.jpg');
 }
