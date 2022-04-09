@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Style/topInfo.css'
 
-function Top({ data }) {
+function Top({ data, dateBuilder }) {
   return (
     <div className="top">
         <div className="location">
@@ -12,6 +12,9 @@ function Top({ data }) {
         </div>
         <div className="description">
             {data.weather ? <p>{data.weather[0].main}</p> : null}
+        </div>
+        <div className="date">
+          {dateBuilder(new Date())}
         </div>
     </div>
   )
